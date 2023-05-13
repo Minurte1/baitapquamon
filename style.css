@@ -3,14 +3,21 @@
     padding: 0px;
 }
 .wrap{
+    margin: 0px;
+    padding: 0px;
 width: 100%;
 height: auto;
 
 }
-.container{
+.container-phuc{
+    
     width: 100%;
     height: 1500px;
    
+}
+.tenshop{
+    margin-top: 2%;
+    text-align: center;
 }
 .task{
     top:0;
@@ -18,7 +25,7 @@ height: auto;
     display: flex;
     position: relative;
     position: fixed;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     width: 100%;
     height: 50px;
     justify-content: center;
@@ -45,7 +52,7 @@ height: auto;
     border-radius: 13px;
 }
 .task-button{
-    background-color: rgb(245, 245, 226);
+   
   cursor: pointer;
    margin-right: -20%;
    margin-left: 20%;
@@ -87,7 +94,7 @@ height: auto;
 
 @keyframes show {
     from{
-        opacity: 0;
+        opacity: 0.3;
     }
     to{
         opacity: 1;
@@ -167,14 +174,13 @@ ul {
     color: orange;
   }
   .container-header{
-    width: 80%;
-   height: 600px;
+    margin-top: 20px;
+    width: 100%;
+   height: 450px;
 
-margin-left: 10%;
-margin-right: 10%;
+
    
 
   }
-  .container-header>img{
-    
-  }
+
+

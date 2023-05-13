@@ -1,68 +1,168 @@
 *{
-padding: 0px;
-margin: 0px;
-text-decoration: none;
+    margin: 0px;
+    padding: 0px;
 }
-
 .wrap{
 width: 100%;
-height: 12000px;
-}
-.thanhtask-fontchu{
-    color: black;
-    margin-top: 0.8%;
-margin-left: 2%;
+height: auto;
 
-font-family: Arial, Helvetica, sans-serif;
 }
-.thanhtask{
-   
- 
-    background-color: antiquewhite;
+.container{
     width: 100%;
-    height: 8%;
+    height: 1500px;
+}
+.task{
+    top:0;
+   z-index: 1;
+    display: flex;
     position: relative;
     position: fixed;
-    top:0;
-    left: 0;
-  
+    background-color: antiquewhite;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    
 }
-.thanhtask-1{
-    margin-left: 2%;
-   justify-content: center;
-   align-items: center;
-   text-align:center ;
+.task-thea{
+    margin-left: 7%;
+    text-decoration: none;
+    color: black;
+    width: 8%;
+    height: 30px;
+    border-radius: 13px;
+    text-align: center;
+    align-items: center;
     display: flex;
+    justify-content: center;
 }
-.thanhtask-fontchu:hover{
+.task-thea:hover{
+    color: orange;
+    border: 1px solid orange;
+    width: 8%;
+    height: 30px;
+    border-radius: 13px;
+}
+.task-button{
+    background-color: rgb(245, 245, 226);
+  cursor: pointer;
+   margin-right: -20%;
+   margin-left: 20%;
+   width: 8%;
+   height: 30px;
+   border-radius: 13px;
+   border: none;
+   border: 1px solid black;
+}
+.task-button:hover{
+    border: 1px solid orange;
     color: orange;
 }
-.thanhtask-giohang{
-    background-color: orange;
-   width: 130px;
-height: 30px;
-border-radius: 15px;
-
-border: none;
+.fa-user{
+    margin-right: 5px;
 }
-.thanhtask-giohang>a{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-weight: 400;
+.dot{
+    position:absolute;
+   top: 50px;
+    width: 100%;
+    height: 3px;
+    background-color: black;
 }
-.buttongiohang{
-    
-   
-
-margin-left: 20%;
-margin-top: 1%;
-
+.container-timkiem{
+    justify-content: center;
   
-}
-.thanhtask-giohang>a{
-    margin-left: 10px;
-}
-.thanhtask-giohang:hover{
+    
+    margin-top:50px;
+    width: 100%;
+    height: 50px;
    
-    filter: brightness(130%);
+    display: flex;
+    background-color: aliceblue;
+   
 }
+
+
+
+
+@keyframes show {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.timkiem1{
+width: 60px;
+margin-top: 20px;
+  
+    font-size: 10px;
+}
+.taikhoan3{
+    width: 70px;
+    width: 80px;
+    margin-top: 20px;
+  
+    font-size: 10px;
+}
+.taikhoan2{
+    width: 70px;
+    margin-top: 20px;
+    margin-left:5%;
+    margin-right:5%;
+    font-size: 10px;
+}
+.ul1{
+    width: 80%;
+ margin-left: -4px;
+}
+.ul2{
+    width: 85%;
+    
+}
+.ul3{
+    width: 80%;
+  margin-left: -2px;
+}
+ul {
+
+   outline: 1px solid rgb(149, 191, 227);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+   
+    width: 80px;
+    margin-left: 10px;
+    display: none;
+
+  }
+
+  input[type=checkbox] {
+    display: none;
+  }
+
+  label {
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  input:checked + label + ul li {
+    cursor: pointer;
+    display: block;
+   
+  }
+  input:checked + ul{
+    border: 1px solid orange;
+ 
+  }
+  li:hover{
+    color: orange;
+  }
+  label:hover{
+    color: orange;
+  }
+  

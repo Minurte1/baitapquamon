@@ -176,7 +176,34 @@ ul {
   .container-header{
     margin-top: 20px;
     width: 100%;
-   height: 450px;
+   height: 500px;
   }
 
 
+.container-sanpham1{
+    width: 100%;
+    height: 460px;
+ 
+margin-top: 20%;
+display: flex;
+justify-content: center;
+
+}
+.sanpham1-left{
+   
+
+   
+}
+.left-1{
+    margin-bottom: 10%;
+}
+.sanpham1-right{
+
+}
+.sanpham1-body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.sanpham1-body>img{
+    height: 440px;
+}

@@ -250,17 +250,20 @@ object-fit: cover;
     color: red;
 }
 .bangmua{
+    position: relative;
+
     width: 80%;
     height: 400px;
-    text-align: center;
+  text-align: right;
 background-color: black
 
 }
-label{
+.label-input-bangmua{
     width: 30%;
     height: 40px;
-    background-color: white;
+    background-color: black;
     border-radius: 13px;
+    
 }
 .input-sanpham2{
     width: 78%;
@@ -268,12 +271,26 @@ label{
     border: none;
     outline: none;
     margin-left: 15px;
-  
+    background-color: black
+   
 
 }
 .bangmua2{
 
 }
-.label1{
-    margin-top: 50px;
+.bangmua-label{
+
+}
+.bangmua2{
+    margin-right: 10%;
+  position: relative;
+  top: 70px;
+ 
+}
+h5{
+    margin-top: -50px;
+}
+.bangmua2>label{
+    margin-top: 5px;
+  margin-right: 90px;
 }

@@ -208,13 +208,72 @@ justify-content: center;
     height: 440px;
     transform-origin: center;
 }
-.sanpham1-img:hover{
+.sanpham2-hove:hover{
 transform: scale(1.03);
 box-shadow: 0px 4px 8px 0px rgb(149, 191, 227);
 }
+.box:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: 0px 4px 8px 0px rgb(149, 191, 227);
+    }
 .hr{
     width: 100%;
     height: 1px;
     background-color: black;
     margin-top: 40px;
+}
+.sanpham2-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,470px);
+    grid-gap: 70px 30px;
+}
+
+.container-sanpham2{
+    margin-top: 20px;
+    width: 80%;
+    height: 600px;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+.sanpham2-grid>img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.sanpham2text{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.sanpham2text:hover{
+    color: red;
+}
+.bangmua{
+    width: 80%;
+    height: 400px;
+    text-align: center;
+background-color: black
+
+}
+label{
+    width: 30%;
+    height: 40px;
+    background-color: white;
+    border-radius: 13px;
+}
+.input-sanpham2{
+    width: 78%;
+    height: 37px;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+  
+
+}
+.bangmua2{
+
+}
+.label1{
+    margin-top: 50px;
 }

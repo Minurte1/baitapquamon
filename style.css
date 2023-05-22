@@ -255,42 +255,77 @@ object-fit: cover;
     width: 80%;
     height: 400px;
   text-align: right;
-background-color: black
+background-color: #121718;
 
 }
 .label-input-bangmua{
-    width: 30%;
+    text-align: center;
+    width: 100%;
     height: 40px;
     background-color: black;
-    border-radius: 13px;
-    
+    border-radius: 15px;
+
 }
 .input-sanpham2{
-    width: 78%;
+    width: 80%;
     height: 37px;
     border: none;
     outline: none;
-    margin-left: 15px;
-    background-color: black
+background-color: black;
+
    
 
 }
-.bangmua2{
 
-}
-.bangmua-label{
-
-}
 .bangmua2{
     margin-right: 10%;
   position: relative;
   top: 70px;
+  width: 50%;
  
 }
 h5{
-    margin-top: -50px;
+margin-top: -50px;
 }
 .bangmua2>label{
-    margin-top: 5px;
-  margin-right: 90px;
+margin-left: 40px;
+  margin-top: -10px;
+    width: 80%;
+    height: 37px;
+    border-radius: 15px;
+}
+.icontt{
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#input1 {
+    display: flex;
+}
+#input2 {
+    display: flex;
+}
+#input3 {
+    display: flex;
+}
+#input4 {
+    display: flex;
+}
+#input5 {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+input::placeholder{
+   text-align: center;
+
+}
+#caibang2{
+    position:sticky;
+    top: 100px;
+    left: 100px;
+    position: relative;
+align-items: center;
+display: flex;
+
 }

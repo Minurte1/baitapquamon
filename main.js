@@ -15,7 +15,3 @@
          // Nếu bảng thông tin đang hiện, thì ẩn nó đi
          caibang2.style.display = "none"; } }
 
-// Thêm sự kiện click cho nút đăng nhập và nút xác nhận 
-// loginButton.addEventListener("click", clickmua); // Khi click vào nút đăng nhập, gọi hàm
-//  toggleInfoForm confirmButton.addEventListener(“click”, toggleInfoForm); // Khi click vào nút xác nhận, gọi hàm 
-//  toggleInfoForm.infoForm.style.display = “none”;
